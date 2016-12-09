@@ -1,0 +1,28 @@
+{
+  "name": "roc-yarn-test",
+  "version": "1.0.0",
+  "description": "Roc Yarn Test",
+  "author": "Wadim Grasza",
+  "license": "MIT",
+  "scripts": {
+    "build": "roc build",
+    "dev": "roc dev",
+    "start": "roc start",
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "roc-package-web-app-react": "1.0.0-beta.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "6.0.2",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-preset-es2017": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "2.6.0",
+    "eslint-config-airbnb": "6.2.0",
+    "eslint-plugin-react": "4.2.3",
+    "roc-package-web-app-react-dev": "1.0.0-beta.9",
+    "roc-plugin-style-sass": "1.0.0-beta.4"
+  }
+}
